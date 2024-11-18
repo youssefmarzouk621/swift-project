@@ -11,6 +11,22 @@
 		E8A658352CEA64DE00DE496A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658342CEA64DE00DE496A /* ContentView.swift */; };
 		E8A658372CEA64E100DE496A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A658362CEA64E100DE496A /* Assets.xcassets */; };
 		E8A6583A2CEA64E100DE496A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A658392CEA64E100DE496A /* Preview Assets.xcassets */; };
+		E8A658422CEA6CE500DE496A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658412CEA6CE500DE496A /* Constants.swift */; };
+		E8A658442CEA6CF900DE496A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658432CEA6CF900DE496A /* ApiManager.swift */; };
+		E8A658472CEA6D2700DE496A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658462CEA6D2700DE496A /* SessionManager.swift */; };
+		E8A658492CEA6D3800DE496A /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658482CEA6D3800DE496A /* KeychainService.swift */; };
+		E8A6584E2CEA6DE000DE496A /* RedHatDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A6584B2CEA6DE000DE496A /* RedHatDisplay-Regular.ttf */; };
+		E8A6584F2CEA6DE000DE496A /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A6584C2CEA6DE000DE496A /* RedHatDisplay-Bold.ttf */; };
+		E8A658502CEA6DE000DE496A /* RedHatDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A6584D2CEA6DE000DE496A /* RedHatDisplay-Italic.ttf */; };
+		E8A658532CEA702000DE496A /* ViewsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658522CEA702000DE496A /* ViewsModifier.swift */; };
+		E8A658582CEA74FF00DE496A /* AuthentificationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658572CEA74FF00DE496A /* AuthentificationInteractor.swift */; };
+		E8A6585B2CEA752800DE496A /* AuthentificationInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A6585A2CEA752800DE496A /* AuthentificationInteractorProtocol.swift */; };
+		E8A6585E2CEA754B00DE496A /* AuthentificationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A6585D2CEA754B00DE496A /* AuthentificationPresenter.swift */; };
+		E8A658612CEA757000DE496A /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658602CEA757000DE496A /* UserEntity.swift */; };
+		E8A658662CEA75EB00DE496A /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658652CEA75EB00DE496A /* SplashScreenView.swift */; };
+		E8A658682CEA775400DE496A /* AuthentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658672CEA775400DE496A /* AuthentificationView.swift */; };
+		E8A6586A2CEA7A8300DE496A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A658692CEA7A8300DE496A /* Extensions.swift */; };
+		E8A6586D2CEA828A00DE496A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8A6586F2CEA828A00DE496A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,23 @@
 		E8A658342CEA64DE00DE496A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8A658362CEA64E100DE496A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8A658392CEA64E100DE496A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8A658412CEA6CE500DE496A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8A658432CEA6CF900DE496A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		E8A658462CEA6D2700DE496A /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		E8A658482CEA6D3800DE496A /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		E8A6584B2CEA6DE000DE496A /* RedHatDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		E8A6584C2CEA6DE000DE496A /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		E8A6584D2CEA6DE000DE496A /* RedHatDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		E8A658512CEA6E2200DE496A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E8A658522CEA702000DE496A /* ViewsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsModifier.swift; sourceTree = "<group>"; };
+		E8A658572CEA74FF00DE496A /* AuthentificationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationInteractor.swift; sourceTree = "<group>"; };
+		E8A6585A2CEA752800DE496A /* AuthentificationInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationInteractorProtocol.swift; sourceTree = "<group>"; };
+		E8A6585D2CEA754B00DE496A /* AuthentificationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationPresenter.swift; sourceTree = "<group>"; };
+		E8A658602CEA757000DE496A /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		E8A658652CEA75EB00DE496A /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E8A658672CEA775400DE496A /* AuthentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationView.swift; sourceTree = "<group>"; };
+		E8A658692CEA7A8300DE496A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E8A6586E2CEA828A00DE496A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +84,14 @@
 		E8A658312CEA64DD00DE496A /* netflix */ = {
 			isa = PBXGroup;
 			children = (
+				E8A658542CEA74B000DE496A /* Authentification */,
+				E8A658512CEA6E2200DE496A /* Info.plist */,
+				E8A658402CEA6CAF00DE496A /* Utils */,
 				E8A658322CEA64DD00DE496A /* netflixApp.swift */,
 				E8A658342CEA64DE00DE496A /* ContentView.swift */,
 				E8A658362CEA64E100DE496A /* Assets.xcassets */,
 				E8A658382CEA64E100DE496A /* Preview Content */,
+				E8A658652CEA75EB00DE496A /* SplashScreenView.swift */,
 			);
 			path = netflix;
 			sourceTree = "<group>";
@@ -65,6 +102,91 @@
 				E8A658392CEA64E100DE496A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8A658402CEA6CAF00DE496A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8A6584A2CEA6D4200DE496A /* Fonts */,
+				E8A658452CEA6D0F00DE496A /* Session */,
+				E8A658412CEA6CE500DE496A /* Constants.swift */,
+				E8A658432CEA6CF900DE496A /* ApiManager.swift */,
+				E8A658522CEA702000DE496A /* ViewsModifier.swift */,
+				E8A658692CEA7A8300DE496A /* Extensions.swift */,
+				E8A6586F2CEA828A00DE496A /* Localizable.strings */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E8A658452CEA6D0F00DE496A /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				E8A658462CEA6D2700DE496A /* SessionManager.swift */,
+				E8A658482CEA6D3800DE496A /* KeychainService.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		E8A6584A2CEA6D4200DE496A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E8A6584C2CEA6DE000DE496A /* RedHatDisplay-Bold.ttf */,
+				E8A6584D2CEA6DE000DE496A /* RedHatDisplay-Italic.ttf */,
+				E8A6584B2CEA6DE000DE496A /* RedHatDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E8A658542CEA74B000DE496A /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				E8A658622CEA757900DE496A /* Views */,
+				E8A6585F2CEA755D00DE496A /* Entity */,
+				E8A6585C2CEA753400DE496A /* Presenter */,
+				E8A658592CEA750800DE496A /* Protocol */,
+				E8A658562CEA74E000DE496A /* Interactor */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		E8A658562CEA74E000DE496A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E8A658572CEA74FF00DE496A /* AuthentificationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E8A658592CEA750800DE496A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E8A6585A2CEA752800DE496A /* AuthentificationInteractorProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E8A6585C2CEA753400DE496A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E8A6585D2CEA754B00DE496A /* AuthentificationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E8A6585F2CEA755D00DE496A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E8A658602CEA757000DE496A /* UserEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E8A658622CEA757900DE496A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8A658672CEA775400DE496A /* AuthentificationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +231,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = E8A658262CEA64DD00DE496A;
 			productRefGroup = E8A658302CEA64DD00DE496A /* Products */;
@@ -126,6 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A6583A2CEA64E100DE496A /* Preview Assets.xcassets in Resources */,
+				E8A6586D2CEA828A00DE496A /* Localizable.strings in Resources */,
+				E8A658502CEA6DE000DE496A /* RedHatDisplay-Italic.ttf in Resources */,
+				E8A6584E2CEA6DE000DE496A /* RedHatDisplay-Regular.ttf in Resources */,
+				E8A6584F2CEA6DE000DE496A /* RedHatDisplay-Bold.ttf in Resources */,
 				E8A658372CEA64E100DE496A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +264,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A658612CEA757000DE496A /* UserEntity.swift in Sources */,
+				E8A658662CEA75EB00DE496A /* SplashScreenView.swift in Sources */,
+				E8A658442CEA6CF900DE496A /* ApiManager.swift in Sources */,
 				E8A658352CEA64DE00DE496A /* ContentView.swift in Sources */,
+				E8A658582CEA74FF00DE496A /* AuthentificationInteractor.swift in Sources */,
+				E8A6585B2CEA752800DE496A /* AuthentificationInteractorProtocol.swift in Sources */,
+				E8A658472CEA6D2700DE496A /* SessionManager.swift in Sources */,
+				E8A658532CEA702000DE496A /* ViewsModifier.swift in Sources */,
 				E8A658332CEA64DD00DE496A /* netflixApp.swift in Sources */,
+				E8A658682CEA775400DE496A /* AuthentificationView.swift in Sources */,
+				E8A6585E2CEA754B00DE496A /* AuthentificationPresenter.swift in Sources */,
+				E8A658422CEA6CE500DE496A /* Constants.swift in Sources */,
+				E8A658492CEA6D3800DE496A /* KeychainService.swift in Sources */,
+				E8A6586A2CEA7A8300DE496A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8A6586F2CEA828A00DE496A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A6586E2CEA828A00DE496A /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E8A6583B2CEA64E100DE496A /* Debug */ = {
@@ -275,11 +425,13 @@
 				DEVELOPMENT_TEAM = 59986B67SB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = netflix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +439,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.montplaisir.netflix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +460,13 @@
 				DEVELOPMENT_TEAM = 59986B67SB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = netflix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +474,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.montplaisir.netflix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

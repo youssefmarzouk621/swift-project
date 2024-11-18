@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  netflix
+
+  Created by Youssef on 17/11/2024.
+  
+*/
+
+"login_string1" = "Assistance";
+"login_string2" = "IDENTIFIANT";
+"login_string3" = "Saisir votre identifiant";
+"login_string4" = "MOT DE PASSE";
+"login_string5" = "Saisir votre mot de passe";
+"login_string6" = "Se rappeler de moi";
+"login_string7" = "Se connecter";
+
+"validate_string1" = "L'identifiant ne doit pas être vide.";
+"validate_string2" = "L'identifiant doit contenir au maximum 12 chiffres.";
+"validate_string3" = "Le mot de passe ne doit pas être vide.";
+"validate_string4" = "Le mot de passe doit contenir au moins 8 caractères.";
+"validate_string5" = "Tous les champs doivent être remplis.";
+"validate_string6" = "Le mot de passe (min 8 caractéres) doit au moins contenir un chiffre, une miniscule et une mejuscule";
+"validate_string7" = "Les mots de passe ne sont pas identiques";
